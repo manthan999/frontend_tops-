@@ -1,0 +1,101 @@
+-> HTML:
+
+Heading Tags (<h1> to <h6>)
+
+<h1> – Main Heading :
+	Represents the most important heading on the page.
+	Usually used for the page title.
+	It is the largest heading by default.
+	Recommended to use only one <h1> per page.
+
+<h2> – Subheading :
+	Used for major sections under the main heading.
+	Slightly smaller than <h1>.
+
+<h3> – Section Heading :
+	Used for subsections under an <h2> heading.
+
+<h4> – Subsection Heading :
+	Used for smaller sections within an <h3>.
+
+<h5> – Minor Heading :
+	Used for less important headings.
+	Smaller than <h4>.
+
+<h6> – Smallest Heading :
+	Represents the least important heading.
+	It is the smallest heading by default.
+
+-> HTML Elements :
+	An HTML element is the basic building block of an HTML document.It defines the structure and content of 
+a web page. Most HTML elements consist of a start tag, content, and an end tag.
+
+Void Elements :
+	These elements do not have any content or a closing tag.
+	EX :<br>,<hr>
+
+Block-Level Elements :
+	A block-level element always starts on a new line and occupies the full width available in its parent 
+container by default.These elements are mainly used to structure and organize the content of a web page.
+
+Inline Elements :
+	An inline element does not start on a new line.It only takes up as much width as necessary for its 
+content and is used to format or style small portions of text.
+
+-> Types of Lists :
+	An HTML list is used to display a collection of related items in an organized manner. 
+
+HTML provides three types of lists:
+	Ordered List (<ol>)
+	Unordered List (<ul>)
+	Description List (<dl>)
+
+-> Table Attributes :
+	border
+	cellspacing
+	cellpadding
+
+Table Parts:
+	<thead> – Table heading
+	<tbody> – Table body
+	<tfoot> – Table footer
+	<tr> – Table row
+	<th> – Table heading cell
+	<td> – Table data cell
+
+rowspan and colspan:
+	rowspan → Merge rows vertically.
+	colspan → Merge columns horizontally.
+
+Form Attribute:
+	action → Page where form data is sent.
+	method → GET or POST.
+
+Input Types:
+	[text,email,password,date,file,radio,checkbox,submit,color,number]
+
+Form Element :
+	[select,taxtaera,ETC]
+
+Progras bar :
+	[detail,summary]
+
+IFram :
+	The <iframe> tag is used to display another webpage inside the current webpage.
+
+-> CSS :
+	Cascading Style Sheets.
+
+Types of CSS:
+	Inline CSS
+	Internal CSS
+	External CSS
+
+Type of Selectors :
+	1. Universal Selectors (*)
+	2. HTML Selectors (div)
+	3. Id Selectors (#)
+	4. Class Selectors (.)
+	5. Descendant Selectors
+
+
