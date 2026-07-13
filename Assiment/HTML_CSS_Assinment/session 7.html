@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox & Grid Assignment</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f5f5f5;
+            padding: 30px;
+        }
+
+        h2 {
+            margin: 30px 0 15px;
+            color: #333;
+        }
+
+        .social-container {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .1);
+        }
+
+        .social-container img {
+            width: 80px;
+            height: 80px;
+            transition: .3s;
+        }
+
+        .social-container img:hover {
+            transform: scale(1.1);
+        }
+
+        .playlist {
+            display: flex;
+            gap: 50px;
+            overflow-x: auto;
+        }
+
+        .song-card {
+            width: 220px;
+            height: 80px;
+            background: #1DB954;
+            color: white;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .song-info h4 {
+            margin-bottom: 10px;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+        }
+
+        .product-card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-card h4 {
+            margin-top: 10px;
+        }
+
+        @media(max-width:900px) {
+            .product-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+
+
+        @media(max-width:600px) {
+            .product-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .social-container {
+                flex-wrap: wrap;
+                gap: 20px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Favorite Apps</h2>
+
+    <div class="social-container">
+
+        <img src="images (1).jfif" alt="Instagram">
+
+        <img src="images(whatsapp).png" alt="WhatsApp">
+
+        <img src="images(3).png" alt="Zomato">
+
+        <img src="51rttY7a+9L._h1_.png" alt="Spotify">
+
+    </div>
+
+    <h2>Spotify Playlist</h2>
+
+    <div class="playlist">
+
+        <div class="song-card">
+            <div class="song-info">
+                <h4>Perfect</h4>
+                <p>Ed Sheeran</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h4>Believer</h4>
+                <p>Imagine Dragons</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h4>Kesariya</h4>
+                <p>Arijit Singh</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h4>Shape of You</h4>
+                <p>Ed Sheeran</p>
+            </div>
+        </div>
+
+        <div class="song-card">
+            <div class="song-info">
+                <h4>Blinding Lights</h4>
+                <p>The Weeknd</p>
+            </div>
+        </div>
+
+    </div>
+
+    <h2>Flipkart Product Grid</h2>
+
+    <div class="product-grid">
+
+        <div class="product-card">
+            <img src="15-fd0021tu-thin-and-light-laptop-hp-original-imah3qjq6uz9tbgd.webp" alt="Laptop">
+            <h4>Laptop</h4>
+        </div>
+
+        <div class="product-card">
+            <img src="images (i phone).jfif" alt="Phone">
+            <h4>Smartphone</h4>
+        </div>
+
+        <div class="product-card">
+            <img src="images.jfif" alt="Headphones">
+            <h4>Headphones</h4>
+        </div>
+
+        <div class="product-card">
+            <img src="images (smartwatch).jfif" alt="Watch">
+            <h4>Smart Watch</h4>
+        </div>
+
+        <div class="product-card">
+            <img src="images (cemera).jfif" alt="Camera">
+            <h4>Camera</h4>
+        </div>
+
+        <div class="product-card">
+            <img src="images (spaker).jfif" alt="Speaker">
+            <h4>Bluetooth Speaker</h4>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
